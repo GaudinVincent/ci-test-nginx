@@ -13,5 +13,5 @@ jobs:
           username: admin
           key: ${{ secrets.ssh_secret }}
           port: 22
-          source: "index.html"
+          source: "index.html,style.css"
           target: /var/www/html
